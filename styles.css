@@ -14,6 +14,16 @@ h1 {
     text-shadow: 0 2px #816fca;
 }
 
+h2 {
+    font-size: 2.25rem;
+    margin: 0.167em 0;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
 .beta-text { 
     font-weight: 900;
 }
@@ -21,6 +31,7 @@ h1 {
 .subheading {
     color: #575757;
     font-weight: 900;
+    margin-bottom: 0.5em;
 }
 
 /* =================
