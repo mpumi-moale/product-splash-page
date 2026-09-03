@@ -39,6 +39,13 @@ p {
    text-transform: uppercase;
 }
 
+.fine-print {
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    color: #858585;
+}
+
+
 /* =================
     Flex containers
    ================= */
@@ -46,6 +53,8 @@ p {
 .main-content {
     display: flex;
     flex-direction: column;
+    padding-right: 2em;
+    padding-left: 2em;
 }
 
 
@@ -59,6 +68,9 @@ p {
     text-align: center;
     color: #fff;
     background-color: #9480e4;
+    background-image:  url('/images/intro-bg.png');
+    background-size: cover;
+
 }
 
 /* ====================
@@ -68,8 +80,6 @@ p {
 .main-content {
     align-items: center;
     padding-top: 2.5em;
-    padding-right: 2em;
-    padding-left: 2em;
 }
 
 .img-main {
@@ -81,7 +91,18 @@ p {
 /* =================
     Form
    ================= */
-   
+input {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 0.75em;
+    border: 2px solid #d1d5db;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 2px solid #8a71ec;
+    background-color: #e6e8ec;
+}
 
 /* =================
     Media queries 
@@ -92,8 +113,8 @@ p {
         display: flex;
     }
 
-      h1 {
-        font-size: 3.25rem;
+    h1 {
+        font-size: 5vh;
     }
     
     h2 {
