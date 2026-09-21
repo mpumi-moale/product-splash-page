@@ -102,6 +102,23 @@ input:focus {
   background-color: #e6e8ec;
 }
 
+.btn {
+  font-family: inherit;
+  font-weight: 900;
+  width: 100%;
+  color: #fff;
+  background-color: #8a71ec;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+}
+
+.btn:hover {
+  color: #fff;
+  background-color: #b7a7f6;
+}
+
 /* =================
     Media queries 
    ================= */
