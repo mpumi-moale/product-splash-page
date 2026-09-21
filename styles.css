@@ -87,13 +87,17 @@ p {
 /* =================
     Form
    ================= */
-input {
+input,
+button {
   font-family: inherit;
   width: 100%;
+  border-radius: 5px;
+}
+
+input {
   padding: 0.5em;
   margin-bottom: 0.75em;
-  border: 3px solid #d1d5db;
-  border-radius: 5px;
+  border: 2px solid #d1d5db;
 }
 
 input:focus {
@@ -103,14 +107,17 @@ input:focus {
 }
 
 .btn {
-  font-family: inherit;
+  text-transform: uppercase;
   font-weight: 900;
-  width: 100%;
-  color: #fff;
-  background-color: #8a71ec;
+  letter-spacing: 1px;
+  padding: 1em 0;
   border: none;
-  border-radius: 5px;
-  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #8a71ec;
   margin-top: 1em;
 }
 
