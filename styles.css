@@ -34,9 +34,19 @@ p {
   margin-bottom: 0.5em;
 }
 
+.top-text,
 .beta-text,
 .subheading {
   text-transform: uppercase;
+}
+
+.top-text {
+  font-size: 0.875rem;
+  font-weight: 900;
+  padding-top: 0.25em;
+  border-top: 5px solid;
+  order: -1;
+  margin: 0 auto;
 }
 
 .fine-print {
@@ -61,7 +71,7 @@ p {
    ================= */
 
 .intro {
-  justify-content: center;
+  justify-content: space-between;
   min-height: 250px;
   text-align: center;
   color: #fff;
